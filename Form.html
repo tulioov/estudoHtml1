@@ -1,0 +1,51 @@
+<html !DOCTYPE>
+	<head>
+		<meta charset="UTF-8"/>
+		<title>Form</title>
+	</head>
+	<body>
+		<a href="ListagensELinks.html">Voltar</a>
+		<form>
+			<div>
+				<label for="name">Name
+					<input type="text" id="name"/>
+				</label>
+
+				<label for="email">Email
+					<input type="email" id="email" required/>
+				</label>
+			</div>
+			
+			<div>
+				<input type="radio" name="preco" value="150"> R$ 150,00
+				<input type="radio" name="preco" value="200"> R$ 200,00
+				<input type="radio" name="preco" value="250"> R$ 250,00
+				<input type="radio" name="preco" value="300"> R$ 300,00
+			</div>
+			
+			<div>
+				<input type="checkbox" name="variosPrecos" value="150"> R$ 150,00
+				<input type="checkbox" name="variosPrecos" value="200"> R$ 200,00
+			</div>
+
+			<div>
+				<label>
+					Seleciona o time <br>
+					<select>
+						<option value="" selected>Selecione um time</option>
+						<option value="Flamengo">Flamengo</option>
+						<option value="Vasco">Vasco</option>
+					</select>
+				</label>
+			</div>
+
+			<div>
+				<label>Digite seu comentario <br>
+					<textarea></textarea>
+				</label>
+			</div>
+
+			<button>Enviar formulário</button>
+		</form>
+	</body>
+</html>
